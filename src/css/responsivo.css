@@ -1,0 +1,38 @@
+@media (max-width: 620px) {
+    .car-slider{
+        padding: 0 4px;
+        gap: 8px;
+    }
+
+    .btn-seta{
+        width: 18px;
+        height: 18px;
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lista-car{
+        height: 540px;
+        justify-content:space-between;
+    }
+
+    .cartao{
+
+        max-height:fit-content;
+    }
+    
+    .cartao .imagem-car{
+        max-height: 230px;
+    }
+
+    .cartao .informacoes .nome{
+        max-width: 40%;
+        font-size: 18px;
+    }
+
+    .cartao .informacoes .vida{
+        font-size: 14px;
+    }
+}
