@@ -3,6 +3,8 @@
 ## 60's and 70's American Muscle Cars
 This web page presents a carousel showcasing some of the most iconic muscle cars from the 60s and 70s. The basic specs are displayed along with a picture of each car. It is possible to slide through the cards to see the next or previous one by clicking on the arrows on the sides.
 
+![Preview](./src/.github/CarSliderPreview.png)
+
 ## Objective
 The main structure of the page was developed by following an online tutorial lesson. During the development of this project, the basic concepts of **HTML** and **CSS** were introduced by the instructors, along with a brief introduction to JavaScript functions.
 
