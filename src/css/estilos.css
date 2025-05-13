@@ -1,12 +1,13 @@
 body{
     font-family: 'Outfit', sans-serif;
 
-    background-image: url(../images/1backgroundIMG.png);
+    background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../images/1backgroundIMG.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     min-height: 100vh;
 }
+
 
 .cabecalho{
     display: flex;
@@ -18,7 +19,7 @@ body{
 }
 
 .cabecalho .titulo{
-    color:#282729;
+    color:#d3d3d3;
 }
 
 .cabecalho .iconeMain{
@@ -37,7 +38,8 @@ body{
     align-items: center;
     justify-content: center;
     gap: 80px;
-    margin: 60px 0;
+    margin-top: 40px;
+    margin-bottom: 60px;
 }
 
 .lista-car{
@@ -70,6 +72,7 @@ body{
 
 .cartao{
     opacity: 0;
+    width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -79,7 +82,10 @@ body{
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     transition: opacity 0.3s ease-in-out;
+}
 
+.cartao.selecionado .container-imagem img{
+    border-radius: 15px;
 }
 
 .cartao.selecionado{
@@ -230,6 +236,4 @@ footer div{
     font-size:small;
     color: #f1ecff;
     text-decoration: none;
-
-
 }

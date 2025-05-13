@@ -1,7 +1,9 @@
+
+
 @media (max-width: 620px) {
     .car-slider{
         padding: 0 4px;
-        gap: 8px;
+        gap: 20px;
     }
 
     .btn-seta{
@@ -35,4 +37,20 @@
     .cartao .informacoes .vida{
         font-size: 14px;
     }
+}
+@media (max-width: 370px) {
+    .car-slider{
+        gap: 7px;
+    }
+    .lista-car{
+        height: 540px;
+    }
+    header{
+        padding: 0 10px;
+    }
+    header h1{
+        font-size: 22px;
+    }   
+    
+    
 }
